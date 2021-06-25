@@ -156,3 +156,9 @@ section {
     display: flex;
     margin-bottom: 32px;
 }
+
+.left-right-section .p-text {
+    background-color: #d4e9e2;
+    line-height: 1.5;
+}
+
