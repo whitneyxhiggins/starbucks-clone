@@ -21,11 +21,11 @@ header {
 
 .header-container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     height: 100%;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
@@ -34,7 +34,6 @@ header {
 }
 
 .logo img {
-    /* 100% of 51px by 51px */
     height: 100%;
 }
 
@@ -78,11 +77,12 @@ header {
 .find-store i {
 padding-right: 8px;
 font-size: 24px;
-cursor: pointer;
+
 }
 
 .find-store:hover {
-    color: #008248
+    color: #008248;
+    cursor: pointer;
 }
 
 .sign-in, .join-now {

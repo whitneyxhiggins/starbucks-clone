@@ -162,3 +162,26 @@ section {
     line-height: 1.5;
 }
 
+.terms-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.terms-container {
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    margin-bottom: 2rem;
+}
+.restrictions {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 auto;
+}
+
+p {
+    width: 550px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
