@@ -5,18 +5,17 @@ footer {
 
 .footer-container {
     padding: 0 40px;
-    display: flex;
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.footer-container ul {
+.about ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.footer-container ul li {
+.about ul li {
     color: rgba(0,0,0,.56);
     padding-top:  .8rem;
     padding-bottom: .8rem;
@@ -24,6 +23,9 @@ footer {
     cursor: pointer;
 }
 
+.footer-container .about {
+    display: flex;
+}
 .links-container ul li:hover {
     color: rgba(0,0,0,.87);
 }
@@ -62,23 +64,56 @@ p {
 }
 
 .social-container {
-    justify-content: space-between;
-}
-
-.social-container ul {
     display: flex;
     list-style-type: none;
+    padding-left: 0;
     padding-top: 32px;
-    padding-bottom: 32px;
 }
 
-.social-container ul li .iconify {
+.social-container li{
+    margin-right: 10px;
+}
+.social-container li .iconify {
     font-size: 38px;
-    margin-left: 10px;
+    color: black;
     cursor: pointer;
 }
 
 hr {
-    width: 90%;
     border: 1px solid lightgray;
+}
+
+.policy {
+    list-style-type: none;  
+    display: flex;
+    padding-left: 0;
+}
+
+.policy li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 1.5;
+}
+
+.policy li .separate {
+    padding-left: .8px;
+    padding-right: .8px;
+    font-size: 28;
+}
+
+.policy li button {
+border: none;
+background-color: white;
+padding-left: 16px;
+padding-right: 16px;
+font-size: 16px;
+}
+
+.policy li button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.policy li button:first-child {
+    padding-left: 0;
 }
